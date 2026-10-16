@@ -1,0 +1,23 @@
+# Defense in depth; export membership is the manifest, not this file.
+.env
+.env.*
+*.env
+node_modules/
+.venv/
+venv/
+__pycache__/
+.local/
+*.log
+*.sqlite*
+*.db
+*.sql
+*.tar
+*.gz
+*.zip
+*.pt
+*.pth
+*.joblib
+*.parquet
+*.jsonl
+dist/
+build/

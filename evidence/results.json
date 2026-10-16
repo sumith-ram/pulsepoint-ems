@@ -1,0 +1,45 @@
+{
+  "scope": "Historical retrospective validation, not operational deployment",
+  "records": 2011943,
+  "forecast": {
+    "rows": 3640,
+    "surge_events": 327,
+    "mae": 10.0885,
+    "rmse": 13.6954,
+    "wape": 0.093179,
+    "test": "Frozen January–March 2024, selection completed beforehand"
+  },
+  "interval_coverage": {
+    "nominal": 0.9,
+    "overall": 0.905495,
+    "surge": 0.792049
+  },
+  "policy": {
+    "scenario_rows": 65520,
+    "recall": 0.9779,
+    "precision": 0.2038,
+    "false_alarm_rate": 0.3772,
+    "abstention": 0.2966,
+    "decision_coverage": 0.7034,
+    "verdict": "LIMITED_RELIABILITY",
+    "staten_island": "REVIEW_REQUIRED_INSUFFICIENT_EVIDENCE"
+  },
+  "origins": [
+    {
+      "path": "experiments/phase_4/final_test.json",
+      "sha256": "8cbbe76d6650ac78575dd125426db12ea98cbba78c9c15c36b61d3859e4d478a"
+    },
+    {
+      "path": "experiments/phase_4/interval_calibration.json",
+      "sha256": "74d7aab52c1b8aa05cd401ad021923c01b254cff724025cc09ba6ae7a286290c"
+    },
+    {
+      "path": "experiments/phase_7/final_policy_evaluation.json",
+      "sha256": "cd37bee408892df9eba1eeab1e3060074ec9a307663cce0efb24f1ffbcfefe61"
+    },
+    {
+      "path": "experiments/phase_9/final_quality_gate.json",
+      "sha256": "12ca389c67371becbbeff229d5175e8dd4b71092892eb38da17f9409c90e0459"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "owner": "sumith-ram",
+  "export": "pulsepoint-ems",
+  "publication_status": "AWAITING_OWNER_REVIEW",
+  "payload_scope": "case-study documentation and selected captures; no application source",
+  "membership_rule": "Only listed payload files are selected; no other files or parent directories may be uploaded. Selection is not a license grant.",
+  "self_integrity": "This manifest excludes its own bytes to avoid recursive self-hashing. Its exact size/SHA-256 and every other staged file are recorded in the external GITHUB_PUBLISH_INVENTORY.json and GITHUB_PUBLISH_MANIFEST.md.",
+  "files": [
+    {
+      "relative_path": ".gitignore",
+      "size": 254,
+      "sha256": "6d5ae35ac820869adbfa84aa23ea8c325226c4fa061c74ed8be9bb160f9863c3",
+      "category": "metadata",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "ARCHITECTURE.md",
+      "size": 879,
+      "sha256": "f55fb21207f47c27c9a81539e004023ef6f34c944a5094cc95887c4b89c3a77b",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "assets/borough-review-boundary.png",
+      "size": 101569,
+      "sha256": "d4ba1948e732710dbf2c2b20b7c9a5b903589747518b1e59b036ed588910db8f",
+      "category": "screenshot",
+      "source_origin": "canonical:pulsepoint-ems/experiments/phase_8/post_polish/screenshots/staten-island-review-required-light.png",
+      "publication_reason": "Aggregate borough analysis with Staten Island REVIEW REQUIRED"
+    },
+    {
+      "relative_path": "assets/decision-overview.png",
+      "size": 154072,
+      "sha256": "40b3bcb5156c094d20e246d945d70b010ddde45976c45210b95598043a8b1d2f",
+      "category": "screenshot",
+      "source_origin": "canonical:pulsepoint-ems/experiments/phase_8/post_polish/screenshots/decision-overview-dark.png",
+      "publication_reason": "Retrospective overview, limited reliability, policy precision and borough review boundary"
+    },
+    {
+      "relative_path": "assets/scenario-lab.png",
+      "size": 153267,
+      "sha256": "ecf8dd10a68f21a9a490aea22af6b65eb78cb070c3e94fc96b76d3272ac5c99e",
+      "category": "screenshot",
+      "source_origin": "canonical:pulsepoint-ems/experiments/phase_8/post_polish/screenshots/scenario-lab-balanced-dark.png",
+      "publication_reason": "Surge-period, over-preparation-sensitive planning simulation and hypothetical capacity frontier"
+    },
+    {
+      "relative_path": "evidence/results.json",
+      "size": 1376,
+      "sha256": "2f13480dd92d6872fb87e41f750cb9995b17957baa1a4c8fd8c5de73a505e8bb",
+      "category": "aggregate_evidence",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Selected aggregate numerical evidence; no raw result file or records copied"
+    },
+    {
+      "relative_path": "EVIDENCE.md",
+      "size": 1062,
+      "sha256": "7155c5d0487981f46590f9b47c07e7d6dc9d15dc3d748662fd7bc518c24d6c86",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "GITHUB_METADATA.md",
+      "size": 885,
+      "sha256": "1349bfc32311a2dc44b42ddc05cb0073acc7c726c0eaacb7e899ec6758396e54",
+      "category": "metadata",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "PROVENANCE.md",
+      "size": 1165,
+      "sha256": "58a3ce6025786a4f48ea7f281d99634083ad59030c8bbedb3efece23d74e5b58",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "README.md",
+      "size": 7297,
+      "sha256": "d095c39d8b0f316a655f7dcde2365e5323fc049e99bc31e0f194205bad39a68c",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "REPRODUCIBILITY.md",
+      "size": 922,
+      "sha256": "7125bd75a7a2acdc685574b88a81479122192d0e27941b3bcb0e3b588d9d82b1",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "SCREENSHOT_REGISTER.md",
+      "size": 3889,
+      "sha256": "a28127687a0f60fa95fdafba46a4df03fa553dc856141cef6aa8c882ab6648fc",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Per-image content/provenance review and explicit limitations"
+    },
+    {
+      "relative_path": "SOURCE_RELEASE_DECISION.md",
+      "size": 2952,
+      "sha256": "3250dab8ac06e51b62fdfc4c8e9f139219fb422179feb114677bc8f5418cce75",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "Authored, bounded professional evidence"
+    },
+    {
+      "relative_path": "VALIDATION.md",
+      "size": 4856,
+      "sha256": "a461bc4f270f4ff09bcb0e2739be7fc449bed5eeef785aa29bbe31761118e0c9",
+      "category": "documentation",
+      "source_origin": "authored:PA1R",
+      "publication_reason": "New present-state checks separated from immutable historical evidence"
+    }
+  ]
+}
